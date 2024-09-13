@@ -1,0 +1,224 @@
+@media screen and (min-width:576px){
+
+}
+@media screen and (min-width:768px){
+    main{
+        height: 190vh;
+        >.sec2{
+            height: 80vh;
+            >a{
+                height: 45%;
+            }
+        }
+    }
+    .sec3{
+        >div{
+            >.bx2{
+                >.menu1{
+                    >a{
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+    .sec4{
+        >div{
+            >.bx1{
+                >.clmn2{
+                    >.title{
+                        display: flex;
+                        justify-content: center;
+                        >h2{
+                            width: 600px;
+                            font-size: 60px;
+                        }
+                    }
+                    >.description{
+                        display: flex;
+                        justify-content: center;
+                        >p{
+                            width: 600px;
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+            >.bx2{
+                >figure{
+                    aspect-ratio: 3 / 2;
+                    >figcaption{
+                        >.title{
+                            >h2{
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec5{
+        >div{
+            >.bx1{
+                border-right: 1px solid white;
+            }
+        }
+    }
+}
+@media screen and (min-width:992px){
+    main{
+        height: 150vh;
+        >header{
+            >div{
+                height: 65px;
+                >i{
+                    font-size: 25px;
+                    color: rgba(255, 255, 255, 0.859);
+                }
+                >ul{
+                    >li{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        >.sec1{
+            align-content: start;
+            height: 80vh;
+            >div{
+                &:nth-of-type(1){
+                    >h1{
+                        font-size: 70px;
+                        line-height: 65px;
+                    }
+                }
+                &:nth-of-type(2){
+                    height: 25%;
+                }
+                &:nth-of-type(3){
+                    height: 20%;
+                    >p{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        >.sec2{
+            height: 60vh;
+            >a{
+                height: 60%;
+                width: 22%;
+                >p{
+                   font-size: 18px; 
+                }
+            }
+        }
+    }
+    .sec3{
+        >div{
+            >.bx2{
+                >.menu1{
+                    >a{
+                        width: 24%;
+                        >figcaption{
+                            >p{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec4{
+        >div{
+            >.bx1{
+                margin-bottom: 150px;
+            }
+            >.bx2{
+                >figure{
+                    background-position: center;
+                    >figcaption{
+                        justify-content: space-between;
+                        >.title{
+                            >h2{
+                                font-size: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1200px){
+    main{
+        height: 150vh;
+        >header{
+            >div{
+                height: 65px;
+                >i{
+                    font-size: 25px;
+                    color: rgba(255, 255, 255, 0.859);
+                }
+                >ul{
+                    >li{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        >.sec2{
+            height: 45vh;
+            >a{
+                width: 24%;
+                height: 90%;
+                >p{
+                    font-size: 25px;
+                }
+            }
+        }
+    } 
+    .sec4{
+        >div{
+            >.bx1{
+                >.clmn1{
+                    >figure{
+                        height: 60%;
+                    }
+                }
+                >.clmn3{
+                    >figure{
+                        height: 60%;
+                    }
+                }
+            }
+            >.bx2{
+                >figure{
+                    >figcaption{
+                        >.title{
+                            >h2{
+                                font-size: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1500px){
+    main{
+        height: 1400px;
+        >header{
+            height: 100px;
+        }
+        >.sec1{
+            height: 900px;
+        }
+        >.sec2{
+            height: 400px;
+        }
+    }
+}

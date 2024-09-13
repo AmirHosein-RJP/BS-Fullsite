@@ -1,0 +1,508 @@
+@font-face {
+    font-family: Lexend;
+    src: url(../Fonts/Lexend[wght].ttf);
+}
+main{
+    background-image: url(../Imgs/iddpnql-accueil-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300vh;
+    >header{
+        height: 10vh;
+        >div{
+            height: 50px;
+            >a{
+                &:hover{
+                    >i{
+                        color: white;
+                    }
+                }
+                >i{
+                    color: rgba(255, 255, 255, 0.832);
+                    font-size: 22px;
+                    transition: .5s;
+                }
+            }
+            >ul{
+               >li{
+                transition: 0.5s;
+                cursor: pointer;
+                transition: .5s;
+                >span{
+                    color: rgba(255, 255, 255, 0.832);
+                    position: relative;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0;
+                        height: 1px;
+                        background-color: white;
+                        transition: .5s;
+                    }
+                    &:hover{
+                        &::after{
+                            width: 100%;
+                        }
+                        color: white;
+                    }
+                }
+                >a{
+                    color: rgba(255, 255, 255, 0.832);
+                    transition: .5s;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0;
+                        height: 1px;
+                        background-color: white;
+                        transition: .5s;
+                    }
+                    &:hover{
+                        &::after{
+                            width: 100%;
+                        }
+                        color: white;
+                    }
+                }
+               } 
+            }
+        }
+    }
+    >.sec1{
+        align-content: space-around;
+        height: 90vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        >div{
+            &:nth-of-type(1){
+                height: 32%;
+            }
+            &:nth-of-type(2){
+                height: 25%;
+            }
+            &:nth-of-type(3){
+                height: 20%;
+                >h2{
+                    font-size: 50px;
+                }
+            }
+            h1{
+                font-family: Lexend;
+                font-size: 50px;
+                word-spacing: 4px;
+                line-height: 48px;
+                color: #BDB9AC;
+                >span{
+                    font-family: Lexend;
+                    font-size: inherit;
+                    word-spacing: inherit;
+                    line-height: inherit;
+                    color: #FEEDDB; 
+                }
+            }
+            >i{
+                font-size: 53px; 
+                color: #FEEDDB;
+                transform: translateY(0px);
+                animation: arrow 3s infinite ease-in-out;
+            }
+            >h2{
+                font-family: Lexend;
+                font-size: 23px; 
+                color: #FEEDDB;
+                font-weight: normal;
+                >span{
+                    font-size: 23px; 
+                    color: #FEEDDB;
+                    font-weight: bold;
+                }
+            }
+            >p{
+                font-family: Lexend;
+                color: #FEEDDB; 
+                font-size: 20px;
+            }
+        }
+    }
+    >.sec2{
+        height: 195vh;
+        justify-content: space-around;
+        padding: 0;
+        >a{
+            height: 20%;
+            background-color: #1B2024;
+            border-radius: 10px;
+            transition: .5s;
+            &:hover{
+                background-color: #393e42;
+            }
+            >figure{
+                height: 40%;
+                >img{
+                    object-fit: cover;
+                }
+            }
+            >p{
+                font-family: Lexend;
+                color: #FEEDDB; 
+                font-size: 25px;
+            }
+        }
+    }
+}
+.sec3{
+    background-image: url(../Imgs/background2.png);
+    background-size: cover;
+    background-position: center;
+    >div{
+        padding-block: 100px;
+        >.bx1{
+            &:nth-of-type(1){
+                >figure{
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    >img{
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                >h3{
+                    font-family: Lexend; 
+                    font-size: 40px;
+                    color: #1B2024;
+                    text-align: center;
+                    >span{
+                        color: #969FA8;
+                    }
+                }
+                >p{
+                    font-size: 15px;
+                    font-family: lexend;
+                    line-height: 27px;
+                    color: #4C4F51;
+                }
+                >div{
+                    >a{
+                        border: .5px solid #1C2125;
+                        color: #4C4F51;
+                        font-size: 18px;
+                        font-family: lexend;
+                        height: 60px;
+                        border-radius: 50px;
+                        background-color: transparent;
+                        width: 300px;
+                        &:hover{
+                            background-color: #7c786b4c;
+                            border: 0;
+                        }
+                    }
+                }
+            }
+        }
+        >.bx2{
+            >h2{
+                font-family: lexend;
+                font-size: 40px;
+            }
+            >.menu1{
+                justify-content: space-around;
+                >a{
+                    border-radius: 20px;
+                    overflow: hidden;
+                    padding: 0;
+                    height: 500px;
+                    background-color: #D8D5CE;
+                    >figure{
+                        height: 60%;
+                        >img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    >figcaption{
+                        padding: 15px;
+                        padding-top: 5px;
+                        height: 40%;
+                        >*{
+                            font-family: lexend;
+                        }
+                        >h3{
+                            color: #1B2024; 
+                            font-size: 16px;  
+                        }
+                        >span{
+                            color: #5D5F5F;
+                            font-size: 15px;
+                        }
+                        >p{
+                            color: #545554;
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+            >.btn1{
+                >a{
+                    border: .5px solid #1C2125;
+                    color: #4C4F51;
+                    font-size: 18px;
+                    font-family: lexend;
+                    height: 60px;
+                    border-radius: 50px;
+                    background-color: transparent;
+                    width: 300px;
+                    &:hover{
+                        background-color: #7c786b4c;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.sec4{
+    background-color: #1B2024;
+    >div{
+        >.bx1{
+            padding-block: 50px;
+            margin-bottom: 50px;
+            justify-content: space-around;
+            >.clmn1{
+                >figure{
+                    transform: translateY(0);
+                    border-radius: 20px;
+                    overflow: hidden;
+                    height: 40%;
+                    animation-name: move;
+                    animation-duration: 1ms;
+                    animation-direction: alternate;
+                    animation-timeline: scroll(block nearest);
+                    >img{
+                        object-fit: cover;
+                    }
+                }
+            }
+            >.clmn3{
+                >figure{
+                    border-radius: 20px;
+                    overflow: hidden;
+                    height: 40%;
+                    transform: translateY(0);
+                    animation: move 2 linear forwards;
+                    animation-timeline: view();
+                    >img{
+                        object-fit: cover;
+                    }
+                }
+            }
+            >.clmn2{
+                >.title{
+                    >h2{
+                        width: 100%;
+                        color: #FEEDDB;
+                        font-size: 40px;
+                        font-family: lexend;
+                        >span{
+                            color: #BDB9AC;
+                        }
+                    }
+                }
+                >.description{
+                    >p{
+                        width: 100%;
+                        color: #FEEDDB;
+                        font-size: 18px;
+                        font-family: lexend; 
+                        line-height: 30px;
+                    }
+                }
+                >.btn2{
+                    >a{
+                        border: .5px solid #E4D6C6;
+                        color: #E4D6C6;
+                        font-size: 18px;
+                        font-family: lexend;
+                        height: 60px;
+                        border-radius: 50px;
+                        background-color: transparent;
+                        width: 300px;
+                        &:hover{
+                            color: #1B2024;
+                            background-color: #E4D6C6;
+                            border: 0;
+                        }
+                    }
+                }
+            }
+        }
+        >.bx2{
+            >figure{
+                background-image: url(../Imgs/img7.jpg);
+                background-position: 0 0;
+                background-size: cover;
+                overflow: hidden;
+                border-radius: 25px;
+                aspect-ratio: 1 / 1;
+                        >figcaption{
+                        width: 100%;
+                        height: 100%;
+                        >.title{
+                            height: fit-content;
+                            >h2{
+                                font-family: lexend;
+                                color: #FEEDDB;
+                                font-size: 30px;
+                            }
+                        }
+                        >a{
+                            font-family: lexend;
+                            width: 250px;
+                            height: 60px;
+                            text-decoration: none;
+                            background-color: #FEEDDB;
+                            color: #1B2024;
+                            border-radius: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 22px;
+
+                        }
+                    }
+
+            }
+        }
+    }
+}
+.sec5{
+    background-image: url(../Imgs/background3.png);
+    background-color: #969FA8;
+    background-position: center;
+    background-size: cover;
+    >div{
+        display: flex;
+        flex-wrap: wrap;
+        >.bx1{
+            border-right: 0 solid white;
+            >.logo{
+                >figure{
+                    width: 300px;
+                    >img{
+                        object-fit: cover;
+                    }
+                }
+            }
+            >.description{
+                >p{
+                    font-family: lexend;
+                    color: #FEEDDB;
+                    font-size: 18px;
+                }
+            }
+            >.link{
+                >a{
+                    font-family: lexend;
+                    color: #FEEDDB;
+                    font-size: 19px;
+                    text-decoration: none;
+                    position: relative;
+                    &:hover{
+                        &::after{
+                            width: 100%;
+                        }
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: -10%;
+                        left: 0;
+                        width: 0%;
+                        height: 1px;
+                        background-color: #FEEDDB;
+                        transition: .5s;
+                    }
+                }
+            }
+            >.social{
+                >i{
+                    color: #FEEDDB;
+                    font-size: 22px;
+                }
+            }
+        }
+        >.bx2{
+            >*{
+                height: fit-content;
+            }
+            >.title{
+                >h3{
+                    color: #FEEDDB;
+                    font-size: 22px;
+                }
+            }
+            >.prt{
+                color: #FEEDDB;
+                font-size: 20px;
+                >a{
+                    text-decoration: none;
+                    color: #FEEDDB;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
+footer{
+    background-color: #FEEDDB;
+    >div{
+        >div{
+            &:nth-of-type(2){
+                >a{
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+            >span{
+                font-family: lexend;
+                color: #1B2024;
+                font-size: 15px;
+            }
+            >a{
+                text-decoration: none;
+                color: #1B2024;
+                font-family: lexend;
+                font-size: 16px;
+                
+            }
+        }
+    }
+}
+@keyframes arrow {
+    0%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(0px);
+    }
+    80%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes move {
+    from{
+        transform: translateY(0); 
+    }
+    to{
+        transform: translateY(-40px);
+    }
+}
